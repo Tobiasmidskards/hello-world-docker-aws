@@ -10,7 +10,7 @@ pipeline {
     }
 
     environment {
-        REGISTRY_CREDENTIAL_ID = 'test-exam1ww'
+        REGISTRY_CREDENTIAL_ID = 'test-exam1ww1'
         GIT_URL = 'git@github.com:Tobiasmidskards/hello-world-docker-aws.git'
         AWS_REGION = 'eu-north-1'
         DOCKER_REGISTRY = 'https://index.docker.io/v1/'
