@@ -12,7 +12,7 @@ pipeline {
     environment {
         REGISTRY_CREDENTIAL_ID = 'test-exam'
         GIT_URL = 'git@github.com:Tobiasmidskards/hello-world-docker-aws.git'
-        AWS_REGION = 'eu-north-1a'
+        AWS_REGION = 'eu-north-1'
         DOCKER_REGISTRY = 'https://index.docker.io/v1/'
         ECS_CLUSTER_NAME = 'test'
 
