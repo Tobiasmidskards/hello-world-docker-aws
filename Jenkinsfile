@@ -10,11 +10,11 @@ pipeline {
     }
 
     environment {
-        REGISTRY_CREDENTIAL_ID = 'DOCKER_REGISTRY_CREDENTIALS'
-        GIT_URL = 'git@github.com:simoncomputing/hello-world-docker-aws.git'
-        AWS_REGION = 'us-east-1'
+        REGISTRY_CREDENTIAL_ID 'test-exam'
+        GIT_URL = 'git@github.com:Tobiasmidskards/hello-world-docker-aws.git'
+        AWS_REGION = 'eu-north-1a'
         DOCKER_REGISTRY = 'https://index.docker.io/v1/'
-        ECS_CLUSTER_NAME = 'hello-world'
+        ECS_CLUSTER_NAME = 'test'
 
         // look in 'CloudFormation' -> 'Output' tab for "DefaultTarget" and "ServiceRole"
         DEFAULT_TARGET = 'arn:aws:elasticloadbalancing:us-east-1:487471999079:targetgroup/default/8eab6a3694cef2e2'
